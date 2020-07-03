@@ -1,0 +1,12 @@
+[submodule "ui/vue"]
+	path = ui/vue
+	url = https://github.com/quedate-en-casa/comoestas-vuejs.git
+[submodule "api/core"]
+	path = api/core
+	url = https://github.com/quedate-en-casa/comoestas-core
+[submodule "api/mongodb"]
+	path = api/mongodb
+	url = https://github.com/quedate-en-casa/comoestas-mongodb
+[submodule "api/fastify"]
+	path = api/fastify
+	url = https://github.com/quedate-en-casa/comoestas-fastify

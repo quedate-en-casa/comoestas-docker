@@ -1,0 +1,9 @@
+**/node_modules/**
+**/.git/**
+**/__test__/**
+**/.vscode
+**/README.md
+**/jest.config.js
+**/.gitignore
+**/yarn.lock
+**/dist/**

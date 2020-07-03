@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  ui:
+    image: quedateencasa/comoestas-ui:0.0.1
+    build: ./ui
+    ports:
+      - 8000:80
+  api:
+    image: quedateencasa/comoestas-api:0.0.1
+    build: ./api
+    ports:
+      - 3001:3000
+    environment: 
+      - MONGODB_HOST=${mongodb_host}
+      - MONGODB_PORT=${mongodb_port}
+      - MONGODB_NAME=${mongodb_name}
+  db:
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - ./data/db:/data/db
+      - ./data/dumps:/data/dumps

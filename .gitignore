@@ -1,0 +1,5 @@
+node_modules/*
+data/db/*
+data/dumps/*
+!data/db/.gitkeep
+!data/dumps/.gitkeep
