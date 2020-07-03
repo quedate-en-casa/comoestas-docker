@@ -18,12 +18,18 @@ This images are published in this **Docker Hub** organization:
 
 https://hub.docker.com/orgs/quedateencasa/repositories
 
-
 ## Requirements
 
 To deploy this versión of the environment, you must install `Docker` and `docker-compose`.
 
 ## Getting started
+
+Clone this repository and then execute the followin command:
+
+```shell
+docker-compose up
+```
+The access to [http://localhost:8000](http://localhost:8000) to access to the application.
 
 ## TODO
 
